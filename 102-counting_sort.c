@@ -1,5 +1,7 @@
 #include "sort.h"
 #include <stdio.h>
+#include <stdlib.h>
+
 /**
 *_calloc - A function that implements the calloc functin.
 *@numele:The number of elemets
@@ -31,7 +33,6 @@ return (p);
 * @array: The array to sort
 * @size: array of the size
 */
-#include <stdlib.h>
 
 void counting_sort(int *array, size_t size)
 {

@@ -22,7 +22,7 @@ arr[item2] = temp;
 * merge - sort bitonic sequences recursively in both orders
 * @array: array
 * @startIndex: first element
-* @numElement: elements number
+* @numElements: elements number
 * @sortOrder: 1: ascending order, 0 descending order
 */
 void merge(int array[], int startIndex, int numElements, int sortOrder)
